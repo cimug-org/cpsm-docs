@@ -1,4 +1,4 @@
-# CPSM & NA Profile Documentation
+# CPSM & CPSM-NA Profile Documentation
 This repo contains the Common Power System Model (CPSM) profile group documentation. CPSM is a Common Information Model (CIM) profile group that defines the classes, class attributes, and associations from the CIM required to solve state estimation and power flow.
 
 ## Contributing
