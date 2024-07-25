@@ -1,0 +1,24 @@
+site_name: "CPSM & NA Profile Documentation"
+repo_url: https://github.com/cimug-org/cpsm-docs
+theme:
+  palette:
+    primary: white
+  logo: images/logo-gray.png
+  favicon: images/logo-white.png
+  name: material
+  features:
+    - content.tabs.link
+    - navigation.tabs
+  language: en
+plugins:
+  - search
+markdown_extensions:
+  - pymdownx.betterem
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+extra_css:
+  - stylesheets/extra.css
+site_url: https://cpsm-docs.ucaiug.io

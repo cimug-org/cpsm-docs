@@ -1,0 +1,93 @@
+# EnergyConnection
+
+
+_A connection of energy generation or consumption on the power system model._
+
+
+
+
+* __NOTE__: this is an abstract class and should not be instantiated directly
+
+
+**URI**: [cim:EnergyConnection](http://iec.ch/TC57/CIM100#EnergyConnection)<br />
+**Type**: Class
+
+
+
+
+```mermaid
+ classDiagram
+    class EnergyConnection
+    click EnergyConnection href "../EnergyConnection"
+      ConductingEquipment <|-- EnergyConnection
+        click ConductingEquipment href "../ConductingEquipment"
+      
+
+      EnergyConnection <|-- EnergySource
+        click EnergySource href "../EnergySource"
+      EnergyConnection <|-- RegulatingCondEq
+        click RegulatingCondEq href "../RegulatingCondEq"
+      
+      
+      EnergyConnection : IdentifiedObject.mRID
+        
+      
+```
+
+
+
+
+
+## Inheritance
+* [IdentifiedObject](IdentifiedObject.md)
+    * [PowerSystemResource](PowerSystemResource.md)
+        * [Equipment](Equipment.md)
+            * [ConductingEquipment](ConductingEquipment.md)
+                * **EnergyConnection**
+                    * [EnergySource](EnergySource.md)
+                    * [RegulatingCondEq](RegulatingCondEq.md)
+
+
+
+## Attributes
+
+
+| Name | URI | Cardinality and Range | Description | Inheritance |
+| ---  | --- | --- | --- | --- |
+| mRID | [cim:IdentifiedObject.mRID](http://iec.ch/TC57/CIM100#IdentifiedObject.mRID) | 1 <br />  string  | Master resource identifier issued by a model authority | [IdentifiedObject](IdentifiedObject.md) |
+
+
+
+
+
+
+
+
+
+## Identifier and Mapping Information
+
+
+
+
+
+
+
+### Schema Source
+
+
+* from schema: http://iec.ch/TC57/2020/CPSM-ShortCircuit#
+
+
+
+
+
+## Mappings
+
+| Mapping Type | Mapped Value |
+| ---  | ---  |
+| self | cim:EnergyConnection |
+| native | this:EnergyConnection |
+
+
+
+
