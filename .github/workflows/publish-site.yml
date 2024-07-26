@@ -1,0 +1,19 @@
+name: Publish https://cpsm-docs.ucaiug.io site
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout this repository
+      uses: actions/checkout@v4
+    - name: Install/setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: 3.11
+    - name: Install dependencies (mkdocs, linkml, etc.)
+      run: pip install -r requirements.txt
+    - name: Publish the site to the GitHub pages branch for hosting
+      run: mkdocs gh-deploy --force

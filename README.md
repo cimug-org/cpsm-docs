@@ -1,5 +1,5 @@
 # CPSM & CPSM-NA Profile Documentation
-This repo contains the Common Power System Model (CPSM) profile group documentation. CPSM is a Common Information Model (CIM) profile group that defines the classes, class attributes, and associations from the CIM required to solve state estimation and power flow.
+This repo contains LinkML artifacts and documentation for the Common Power System Model (CPSM) and CPSM Network Analysis (NA) profile groups. CPSM and CPSM-NA are two foundational Common Information Model (CIM) profile groups that define the classes, class attributes, and associations from the CIM required to model transmission network models and represent solved state estimation or power flow results.
 
 ## Contributing
 To run the site locally use [Python](https://www.python.org/) 3.11+. It will likely be easiest to use a Python virtual environment as shown below to install the dependencies.
