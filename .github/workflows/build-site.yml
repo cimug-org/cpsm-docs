@@ -1,10 +1,10 @@
-name: Publish https://cpsm-docs.ucaiug.io site
+name: Build https://cpsm-docs.ucaiug.io site
 on:
   push:
     branches:
       - master
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout this repository
@@ -15,5 +15,5 @@ jobs:
         python-version: 3.11
     - name: Install dependencies (mkdocs, linkml, etc.)
       run: pip install -r requirements.txt
-    - name: Publish the site to the GitHub pages branch for hosting
+    - name: Build and write site files to GitHub pages branch for hosting
       run: mkdocs gh-deploy --force
