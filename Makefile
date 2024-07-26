@@ -8,6 +8,26 @@ markdown: ## Generate Markdown files from LinkML schemas
 	gen-doc -d docs/Topology --diagram-type mermaid_class_diagram --template-directory _templates/ --use-slot-uris schemas/topology.linkml.yaml
 	grep -E '^# (Slot|Type): ' -lr --include \*.md docs | xargs -d '\n' rm
 
+.PHONY: protobuf
+protobuf: ## Generate Protobuf files from LinkML schemas
+	mkdir -p protobufs
+	gen-proto schemas/core-equipment.linkml.yaml > protobufs/core-equipment.proto
+	gen-proto schemas/operation.linkml.yaml > protobufs/operation.proto
+	gen-proto schemas/short-circuit.linkml.yaml > protobufs/short-circuit.proto
+	gen-proto schemas/state-variables.linkml.yaml > protobufs/state-variables.proto
+	gen-proto schemas/steady-state-hypothesis.linkml.yaml > protobufs/steady-state-hypothesis.proto
+	gen-proto schemas/topology.linkml.yaml > protobufs/topology.proto
+
+.PHONY: python
+python: ## Generate Python dataclass files from LinkML schemas
+	mkdir -p python
+	gen-python schemas/core-equipment.linkml.yaml > python/core-equipment.py
+	gen-python schemas/operation.linkml.yaml > python/operation.py
+	gen-python schemas/short-circuit.linkml.yaml > python/short-circuit.py
+	gen-python schemas/state-variables.linkml.yaml > python/state-variables.py
+	gen-python schemas/steady-state-hypothesis.linkml.yaml > python/steady-state-hypothesis.py
+	gen-python schemas/topology.linkml.yaml > python/topology.py
+
 .PHONY: clean
 clean: ## Delete all Markdown files
 	rm docs/'Core Equipment'/*.md docs/Operation/*.md docs/'Short Circuit'/*.md docs/'State Variables'/*.md docs/'Steady State Hypothesis'/*.md docs/Topology/*.md
