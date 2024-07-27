@@ -12,4 +12,4 @@ The CPSM & CPSM-NA sets of profiles currently documented herein consist of the f
 - [Steady State Hypothesis](./Steady State Hypothesis/index.md)
 - [Topology](./Topology/index.md)
 
-Note that detailed use   case coverage for these profiles can be found in the [IEC 61968-452:2021](https://webstore.iec.ch/en/publication/64844) and [IEC 61968-456:2021](https://webstore.iec.ch/en/publication/68054) published standards. These publications should be consulted during implementation and are publicly available for purchase at the [IEC Webstore](https://webstore.iec.ch/).
+Note that detailed use   case coverage for these profiles can be found in the [IEC 61970-452:2021](https://webstore.iec.ch/en/publication/64844) and [IEC 61970-456:2021](https://webstore.iec.ch/en/publication/68054) published standards. These publications should be consulted during implementation and are publicly available for purchase at the [IEC Webstore](https://webstore.iec.ch/).
