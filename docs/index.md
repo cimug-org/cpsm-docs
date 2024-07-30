@@ -3,7 +3,7 @@ This site provides online documentation corresponding to the CPSM and CPSM-NA (N
 
 In particular, the CPSM is the set of Common Information Model (CIM) profiles that define the classes, class attributes, and associations from the CIM required to solve state estimation and power flow. Complementary to this is the CPSM-NA set of profiles which define the classes, class attributes, and roles from the CIM necessary to describe the result of state estimation, power flow and other similar applications that produce a steady-state solution of a power network. 
 
-Currently documented herein are the following (click on each to learn more):
+Currently documented herein are the following (click on each to learn more).
 
 CPSM Profiles:
 
