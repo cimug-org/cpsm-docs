@@ -6,11 +6,13 @@ In particular, the CPSM is the set of Common Information Model (CIM) profiles th
 Currently documented herein are the following (click on each to learn more):
 
 CPSM Profiles:
+
 - [Core Equipment](./Core Equipment/index.md)
 - [Operation](./Operation/index.md)
 - [Short Circuit](./Short Circuit/index.md)
 - 
 CPSM-NA (Network Analysis) Profiles:
+
 - [State Variables](./State Variables/index.md)
 - [Steady State Hypothesis](./Steady State Hypothesis/index.md)
 - [Topology](./Topology/index.md)
