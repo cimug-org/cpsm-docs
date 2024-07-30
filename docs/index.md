@@ -10,7 +10,7 @@ CPSM Profiles:
 - [Core Equipment](./Core Equipment/index.md)
 - [Operation](./Operation/index.md)
 - [Short Circuit](./Short Circuit/index.md)
-- 
+  
 CPSM-NA (Network Analysis) Profiles:
 
 - [State Variables](./State Variables/index.md)
