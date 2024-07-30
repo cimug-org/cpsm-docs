@@ -1,5 +1,5 @@
 # Overview
-This site provides online documentation corresponding to the CPSM and CPSM-NA (Network Analysis) profile sets made publically available by the UCAIug under the [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) open source license. 
+This site provides online documentation corresponding to the Common Power System Model Schema (CPSMS) and Common Power System Model Schema - Network Analysis (CPSMS-NA) profile sets made publically available by the UCAIug under the [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) open source license. 
 
 In particular, the CPSM is the set of Common Information Model (CIM) profiles that define the classes, class attributes, and associations from the CIM required to solve state estimation and power flow. Complementary to this is the CPSM-NA set of profiles which define the classes, class attributes, and roles from the CIM necessary to describe the result of state estimation, power flow and other similar applications that produce a steady-state solution of a power network. 
 
@@ -11,7 +11,7 @@ CPSM Profiles:
 - [Operation](./Operation/index.md)
 - [Short Circuit](./Short Circuit/index.md)
   
-CPSM-NA (Network Analysis) Profiles:
+CPSM-NA Profiles:
 
 - [State Variables](./State Variables/index.md)
 - [Steady State Hypothesis](./Steady State Hypothesis/index.md)
