@@ -7,13 +7,13 @@ Currently documented herein are the following (click on each to learn more).
 
 CPSM Profiles:
 
-- [Core Equipment](./Core%20Equipment/index.md)
+- [Core Equipment](./CoreEquipment/index.md)
 - [Operation](./Operation/index.md)
-- [Short Circuit](./Short%20Circuit/index.md)
+- [Short Circuit](./ShortCircuit/index.md)
   
 CPSM-NA Profiles:
 
-- [State Variables](./State%20Variables/index.md)
-- [Steady State Hypothesis](./Steady%20State%20Hypothesis/index.md)
+- [State Variables](./StateVariables/index.md)
+- [Steady State Hypothesis](./SteadyStateHypothesis/index.md)
 - [Topology](./Topology/index.md)
 
