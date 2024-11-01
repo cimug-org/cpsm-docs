@@ -28,7 +28,7 @@ make clean
 ```
 2. Use [LinkML's Markdown generator](https://linkml.io/linkml/generators/markdown.html) to create the static Markdown files from the LinkML schema by running `make markdown`
 ```sh
-make mardown
+make markdown
 ```
 
 This is using `Makefile` to hide the complexity of running commands manually. You can see the full usage by running `make help`.
