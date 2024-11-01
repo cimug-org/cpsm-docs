@@ -12,7 +12,7 @@ prefixes:
   dc: http://purl.org/dc/elements/1.1/
   profcim: http://iec.ch/TC57/ns/CIM/prof-cim#
   owl: http://www.w3.org/2002/07/owl#
-  cim: http://iec.ch/TC57/CIM100#
+  cim: https://cpsm-docs.ucaiug.io/Topology#
   cims: http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#
   dct: http://purl.org/dc/terms/
   rdfs: http://www.w3.org/2000/01/rdf-schema#
